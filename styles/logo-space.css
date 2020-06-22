@@ -1,5 +1,6 @@
 .logo-space-loader {
     position: absolute;
+    top:0;
     left: calc(50% - 31px);
     width: 100px;
     height: 100px;
