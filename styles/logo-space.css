@@ -36,8 +36,8 @@
     -ms-animation: logo-space-rotate-one 1.15s linear infinite;
     -webkit-animation: logo-space-rotate-one 1.15s linear infinite;
     -moz-animation: logo-space-rotate-one 1.15s linear infinite;
-    border-bottom: 3px solid black;
-    box-shadow: 0 2px 2px -2px blue;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 2px -2px rgba(30, 144, 255, 0.8);
 ;
 }
 
@@ -49,8 +49,8 @@
     -ms-animation: logo-space-rotate-two 1.15s linear infinite;
     -webkit-animation: logo-space-rotate-two 1.15s linear infinite;
     -moz-animation: logo-space-rotate-two 1.15s linear infinite;
-    border-right: 3px solid black;
-    box-shadow: 2px 0 2px -2px blue;
+    border-right: 1px solid black;
+    box-shadow: 2px 0 2px -2px rgba(30, 144, 255, 0.8);
 }
 
 .logo-space-inner.logo-space-three {
@@ -61,8 +61,8 @@
     -ms-animation: logo-space-rotate-three 1.15s linear infinite;
     -webkit-animation: logo-space-rotate-three 1.15s linear infinite;
     -moz-animation: logo-space-rotate-three 1.15s linear infinite;
-    border-top: 3px solid black;
-    box-shadow: 0 -3px 3px -3px blue;
+    border-top: 1px solid black;
+    box-shadow: 0 -3px 3px -3px rgba(30, 144, 255, 0.8);
 }
 
 
