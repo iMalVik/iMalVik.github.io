@@ -1,0 +1,7 @@
+{
+	"hello": "Ahoj!",
+	"about": {
+		"name": "O nás",
+		"example": "Tohle je stránka O nás."
+	}
+}

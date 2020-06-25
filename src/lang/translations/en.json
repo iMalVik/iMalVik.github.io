@@ -1,0 +1,7 @@
+{
+	"hello": "Hello!",
+	"about": {
+		"name": "About",
+		"example": "This is an About page."
+	}
+}
