@@ -13,10 +13,10 @@ module.exports = {
     rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        indent: ['warn', 4, { MemberExpression: 1 }],
-        'vue/html-indent': ['warn', 4, { baseIndent: 1 }],
-        'vue/script-indent': ['warn', 4, { baseIndent: 1 }],
-        'comma-dangle': ['warn', {
+        indent: [ 'warn', 4, { MemberExpression: 1 }],
+        'vue/html-indent': [ 'warn', 4, { baseIndent: 1 }],
+        'vue/script-indent': [ 'warn', 4, { baseIndent: 1 }],
+        'comma-dangle': [ 'warn', {
             arrays: 'always-multiline',
             objects: 'always-multiline',
             imports: 'never',
@@ -24,6 +24,13 @@ module.exports = {
             functions: 'never',
         }],
         'no-multi-spaces': 'off',
+        'object-curly-spacing': [ 'warn', 'always', { objectsInObjects: false, arraysInObjects: false }],
+        'array-bracket-spacing': [ 'warn', 'always', {
+            singleValue: false,
+            objectsInArrays: false,
+            arraysInArrays: false,
+        }],
+        'spaced-comment': 'off',
     },
     overrides: [
         {
