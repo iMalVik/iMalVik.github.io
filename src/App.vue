@@ -1,32 +1,15 @@
 <template>
     <v-app>
-        <app-bar />
-        <v-main>
-            <v-container>
-                <v-row class="text-center">
-                    <v-col cols="12">
-                        <div id="nav">
-                            <h1>{{ $t('hello') }}</h1>
-                            <localized-link to="/">Home</localized-link>
-                            |
-                            <localized-link to="/about">About</localized-link>
-                        </div>
-                    </v-col>
-                </v-row>
-            </v-container>
-            <router-view />
-        </v-main>
+        <router-view />
     </v-app>
 </template>
 
 <script>
-    import AppBar from './components/AppBar'
 
     export default {
         name: 'App',
 
         components: {
-            AppBar,
         },
 
         data: () => ({
