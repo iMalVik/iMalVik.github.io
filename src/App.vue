@@ -1,21 +1,22 @@
 <template>
-    <v-app>
-        <router-view />
-    </v-app>
+  <v-app>
+    <progress-linear />
+    <router-view />
+  </v-app>
 </template>
 
 <script>
+  import ProgressLinear from './components/portfolio/ProgressLinear'
 
-    export default {
-        name: 'App',
+  export default {
+    name: 'App',
 
-        components: {
-        },
+    components: { ProgressLinear },
 
-        data: () => ({
-            //
-        }),
-    }
+    data: () => ({
+      //
+    }),
+  }
 </script>
 
 <style>

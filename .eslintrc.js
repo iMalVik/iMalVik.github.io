@@ -14,8 +14,8 @@ module.exports = {
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         indent: [ 'warn', 4, { MemberExpression: 1 }],
-        'vue/html-indent': [ 'warn', 4, { baseIndent: 1 }],
-        'vue/script-indent': [ 'warn', 4, { baseIndent: 1 }],
+        'vue/html-indent': [ 'warn', 2, { baseIndent: 1 }],
+        'vue/script-indent': [ 'warn', 2, { baseIndent: 1 }],
         'comma-dangle': [ 'warn', {
             arrays: 'always-multiline',
             objects: 'always-multiline',

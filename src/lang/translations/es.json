@@ -1,6 +1,127 @@
 {
-	"hello": "Hola!",
-	"about": {
-		"example": "Esta es una página Acerca de."
-	}
+    "hello"    : "Hola!",
+    "about"    : {
+        "example": "Esta es una página Acerca de."
+    },
+    "portfolio": {
+        "about"               : {
+            "name"    : "Малышкин Виктор",
+            "birthday": "17/05/1985",
+            "e-mail"  : "malyshkin.viktor@icloud.com",
+            "telegram": "+375-29-605-05-09",
+            "skype"   : "jeffers-jekson",
+            "linkedin": "https://www.linkedin.com/in/viktor-malyshkin-1b808a69/"
+        },
+        "titles"              : {
+            "skills"              : "Профессиональные навыки",
+            "key-skills"          : "Ключевые навыки",
+            "basic skills"        : "Базовые навыки",
+            "experience"          : "Профессиональный опыт",
+            "hackathon"           : "Хакатон",
+            "internship-training" : "Стажировка - Обучение",
+            "courses-certificates": "Курсы и сертификаты"
+        },
+        "skills"              : {
+            "key"  : {},
+            "basic": {}
+        },
+        "experience"          : [
+            {
+                "company"     : "SkyWay",
+                "date-start"  : "11.2019",
+                "date-finish" : "03.2020",
+                "tasks"       : [
+                    "Разработка новых модуль-расширений и кастомизации пользовательского интерфейса для 3D проектирования.",
+                    "Разработка модуль-расширения для 3D моделей, позволяющего генерировать оформле- ния чертежей.",
+                    "Разработка модуля-расширения для автоматической генерации конструкторской доку- ментации из 3D моделей, в соответствии со стандартом ГОСТ.",
+                    "Увеличение производительности"
+                ],
+                "technologies": [
+                    "JavaScript ES5/ES6", "Vue", "Vuex", "Vuetify", "Sass/SCSS", "Pug/Jade", "Netvibes UWA", "AMD RequireJS"
+                ]
+            },
+            {
+                "company"     : "FinWin Technologies",
+                "date-start"  : "11.2018",
+                "date-finish" : "03.2019",
+                "tasks"       : [
+                    "Разработка решений, предоставляющих административный пакет и инструменты управ- ления полной информацией, создание и поставка услуг/продукций в области информа- ционных технологий, включая веб-сервисы и прямой доступ к базе данных.",
+                    "Разработка аналитической торговой платформы, интегрированной с биржами, для ры- ночных ботов и торговых стратегий.",
+                    "Разработка новых и расширенных процессов ETL.",
+                    "Разработка расширения Google Chrome криптовалютного обмена.",
+                    "Применение системы Strapi.",
+                    "Применение подхода Pixel perfect.",
+                    "Использование принципов SOLID.",
+                    "Использование принципов BEM.",
+                    "Применение подхода Pixel Perfect.",
+                    "Настройка производительности на всех девайсах."
+                ],
+                "technologies": [
+                    "JavaScript ES5/ES6", "Vue", "Vuex", "Vuetify", "Sass/SCSS", "Pug/Jade", "React", "Redux", "Typescript", "Material-UI", "Ant Design", "D3JS", "Webpack", "GraphQL", "NodeJS", "MongoDB", "IndexedDB", "CMS Strapi"
+                ]
+            },
+            {
+                "company"     : "Pixis Software",
+                "date-start"  : "05.2018",
+                "date-finish" : "11.2018",
+                "tasks"       : [
+                    "Переписывание проекта на новые технологии, разработка новых модулей, предоставля- ющих пакет и инструменты управления полной информацией, предлагающие такие услу- ги, как обработка в реальном времени, включая веб-сервисы и прямой доступ к базе данных.",
+                    "Разработка решения обновления портала в реальном времени без потери данных."
+                ],
+                "technologies": [
+                    "JavaScript ES5/ES6", "Angular+", "TypeScript", "AngularJS", "Sass/SCSS", "Bootstrap"
+                ]
+            }
+        ],
+        "hackathon"           : {
+            "name"        : "What The Hack?!3.0",
+            "description" : "Первый фановый хакатон для разработчиков",
+            "date-start"  : "24.11.2017",
+            "date-finish" : "26.11.2017",
+            "technologies": [
+                "JavaScript ES5/ES6", "Angular+", "TypeScript", "AngularJS", "Sass/SCSS", "Bootstrap"
+            ],
+            "winner"      : "Победитель конкурса",
+            "place"       : "1 место"
+        },
+        "internship-training" : {
+            "company"     : "IT-START",
+            "description" : "Индивидуальное обучение Java в школе программирования IT-Start",
+            "date-start"  : "07-2016",
+            "date-finish" : "11-2017",
+            "technologies": "Java, Spring, Hibernate, JPA, JSP, CSS3, Javascript ES5/ES6, Ajax, jQuery, Maven, MySQL, GitHub"
+        },
+        "courses-certificates": [
+            {
+                "course"     : "Основы тестирования ПО",
+                "place"      : "QA Academy",
+                "certificate": "Сертификат No б/н",
+                "site"       : "http://qa-academy.by/"
+            },
+            {
+                "course"     : "Web-дизайн: HTML & CSS",
+                "place"      : "БелСофт",
+                "certificate": "Сертификат No 110201-3",
+                "site"       : "http://www.belsoft.by/"
+            },
+            {
+                "course"     : "Web-дизайн: JavaScript & DHTML",
+                "place"      : "БелСофт",
+                "certificate": "Сертификат No 110702-2",
+                "site"       : "http://www.belsoft.by/"
+            },
+            {
+                "course"     : "Web-дизайн: PHP & MySQL",
+                "place"      : "Шипалекс",
+                "certificate": "Сертификат No б/н",
+                "site"       : "http://shipalex.com/"
+            },
+            {
+                "course"     : "Хакатон",
+                "place"      : "What The Hack?!3.0",
+                "certificate": "Сертификат за 1 место No б/н",
+                "site"       : "https://wth.by/"
+            }
+        ]
+    }
 }
